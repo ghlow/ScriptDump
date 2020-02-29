@@ -1,0 +1,25 @@
+/* Change "two" to whatever you want to type when you want to call it. */
+a.two:link, a.two:visited {
+  background-color: #FF696C;
+  color: white;
+/* Padding determines the distance from the edge of the text to the edge of the button itself. */
+  padding: 14px 20px;
+  text-align: center;
+/* Text decoration determines if there is any... Well... Text decoration. */
+  text-decoration: none;
+  display: inline-block;
+/* The higher the border radius, the more rounded the corners are. */
+	border-radius: 25px;
+/* Next part is to make it so that you can't select the button with your cursor. */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/* Next part is to change the button color when it is hovered over. */
+/* If you changed "two" to something else earlier, make sure to change it to the same thing here. */
+a.two:hover, a.two:active {
+  background-color: #D83E41;
+}
